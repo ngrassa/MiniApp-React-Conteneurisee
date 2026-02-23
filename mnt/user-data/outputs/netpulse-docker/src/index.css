@@ -1,0 +1,25 @@
+/* Reset global */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  background: #04070f;
+  color: #c8daf4;
+  font-family: 'Syne', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+#root { min-height: 100vh; }
+
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: #080e1c; }
+::-webkit-scrollbar-thumb { background: #1a2d50; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #ff3d7144; }
+
+::selection { background: #ff3d7133; color: #fff; }

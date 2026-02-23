@@ -1,0 +1,13 @@
+# Fichiers exclus du contexte de build Docker
+# (accélère le build et réduit la taille du contexte)
+
+node_modules/
+build/
+.git/
+.gitignore
+*.md
+.env
+.env.*
+.DS_Store
+*.log
+coverage/
