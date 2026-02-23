@@ -30,7 +30,7 @@ cd MiniApp-Docker
 chmod +x install-docker.sh && ./install-docker.sh --si besoin
 chmod +x build-and-run.sh  && ./build-and-run.sh
 ```
-# → http://localhost:3000
+# http://localhost:3000
 ```
 #Structure du projet avec Docker
 netpulse-docker/
